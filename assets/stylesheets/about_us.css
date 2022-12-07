@@ -9,7 +9,7 @@ body{
     background-image: linear-gradient(34deg, #23222A 33%, #44515D 100%);
     background-size: contain;
     width: 100vw;
-    height: 170vh;
+    height: 167vh;
 }
 .banner{
     position: absolute;
@@ -70,7 +70,7 @@ nav .bar{
     position: absolute;
     left: -6vw;
     width: 19vw;
-    top: 54.8vw;
+    top: 52.8vw;
     font-size: 1vw;
     font-family: 'Figtree', sans-serif;
 }
@@ -114,15 +114,15 @@ nav .bar{
     top: 35vw;
 }
 #third{
-    top: 50vw;
+    top: 48vw;
 }
 #fourth{
-    top: 60vw;
+    top: 58vw;
 }
 footer{
     display: flex;
     position: absolute;
-    top: 147vh;
+    top: 144vh;
     width: 100vw;
     left: 0vw;
     height: 10vw;
