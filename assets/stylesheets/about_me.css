@@ -5,12 +5,11 @@
     padding: 0vw;
 }
 body{
+    overflow-x: hidden;
     background-image: linear-gradient(34deg, #23222A 33%, #44515D 100%);
     background-size: contain;
-    overflow-x: hidden;
     width: 100vw;
-    height: 100vh;
-    overflow-y: hidden;
+    height: 200vh;
 }
 .banner{
     position: absolute;
@@ -62,57 +61,6 @@ nav .bar{
 #active{
     color: #ffffff;
 }
-.cart-icon{
-    position: absolute;
-    height: 3vw;
-    width: 3vw;
-    top: 1.95vw;
-    right: 10vw;
-}
-.cart-icon img{
-    height: 1.5vw;
-    width: 1.5vw;
-    position: relative;
-    top: 0.5vw;
-    left: 0.5vw;
-}
-.not-dot{
-    height: 0.7vw;
-    width: 0.7vw;
-    border-radius: 50%;
-    position: relative;
-    top: -1.35vw;
-    right: -1.55vw;
-    background-color: #ff7109;
-}
-.menu-icon{
-    display: flex;
-    flex-direction: column;
-    height: 3vw;
-    width: 2.5vw;
-    position: absolute;
-    top: 1.95vw;
-    right: 6vw;
-    row-gap: 0.3vw;
-    justify-content: center;
-    align-items: flex-end;
-}
-.menu-icon .bar{
-    width: 1.5vw;
-    height: 0.2vw;
-    position: relative;
-    background-color: #ffffff;
-    
-}
-.menu-icon #b1{
-    width: 70%;
-}
-.menu-icon #b2{
-    width: 90%;
-}
-.menu-icon #b3{
-    width: 50%;
-}
 .sidebar{
     color: #b3aca2;
     display: flex;
@@ -122,42 +70,13 @@ nav .bar{
     position: absolute;
     left: -6vw;
     width: 19vw;
-    top: 21.5vw;
-    font-size: 0.5vw;
+    top: 73vw;
+    font-size: 1vw;
     font-family: 'Figtree', sans-serif;
-}
-.body{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    row-gap: 2vw;
-    width: 20vw;
-    color: white;
-    font-family: 'Bebas Neue', sans-serif;
-    top: 11vw;
-    left: 21vw;
-}
-.body h1{
-    font-size: 5vw;
-}
-.body p{
-    font-size: 1.5vw;
-    color: #ff7109;
-}
-.body h3{
-    font-size: 3.2vw;
-    font-family: 'Figtree', sans-serif;
-}
-.main-page-image{
-    position: absolute;
-    left: 46vw;
-    top: 15vh;
-    height: 28vw;
-    width: 48vw;
 }
 .nav-2{
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 1vw;
+    font-size: 2vw;
     top: 22vw;
     transform: rotateZ(.25turn);
     width: 22vw;
@@ -171,10 +90,38 @@ nav .bar{
     top: 0.8vw;
     width: 7vw;
 }
+.body-text{
+    height: auto;
+    width: 80vw;
+    font-family: 'Figtree', sans-serif;
+    position: absolute;
+    top: 10vw;
+    left: 10vw;
+}
+.body-text h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3vw;
+    color: #ff7109;
+}
+.body-text p{
+    color: #b3aca2;
+    font-size: 1.2vw;
+    position: relative;
+    left: 2vw;
+}
+#second{
+    top: 35vw;
+}
+#third{
+    top: 50vw;
+}
+#fourth{
+    top: 60vw;
+}
 footer{
     display: flex;
     position: absolute;
-    bottom: 0vh;
+    top: 177vh;
     width: 100vw;
     left: 0vw;
     height: 10vw;
