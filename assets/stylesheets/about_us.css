@@ -11,6 +11,10 @@ body{
     width: 100vw;
     height: 167vh;
 }
+a{
+    text-decoration: none;
+    color: #b3aca2;
+}
 .banner{
     position: absolute;
     top: 0vw;
@@ -60,6 +64,23 @@ nav .bar{
 }
 #active{
     color: #ffffff;
+}
+.register-btn{
+    position: absolute;
+    top: 2.6vw;
+    right: 5vw;
+    color: #ffffff;
+    height: 2.7vw;
+    width: 8vw;
+    background-color: #ff7109;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 1vw;
+    font-family: 'Bebas Neue', sans-serif;
+    z-index: 1;
 }
 .sidebar{
     color: #b3aca2;

@@ -4,6 +4,10 @@
     margin: 0vw;
     padding: 0vw;
 }
+a{
+    text-decoration: none;
+    color: #b3aca2;
+}
 body{
     background-image: linear-gradient(34deg, #23222A 33%, #44515D 100%);
     background-size: contain;
@@ -62,56 +66,22 @@ nav .bar{
 #active{
     color: #ffffff;
 }
-.cart-icon{
+.register-btn{
     position: absolute;
-    height: 3vw;
-    width: 3vw;
-    top: 1.95vw;
-    right: 10vw;
-}
-.cart-icon img{
-    height: 1.5vw;
-    width: 1.5vw;
-    position: relative;
-    top: 0.5vw;
-    left: 0.5vw;
-}
-.not-dot{
-    height: 0.7vw;
-    width: 0.7vw;
-    border-radius: 50%;
-    position: relative;
-    top: -1.35vw;
-    right: -1.55vw;
+    top: 2.6vw;
+    right: 5vw;
+    color: #ffffff;
+    height: 2.7vw;
+    width: 8vw;
     background-color: #ff7109;
-}
-.menu-icon{
     display: flex;
-    flex-direction: column;
-    height: 3vw;
-    width: 2.5vw;
-    position: absolute;
-    top: 1.95vw;
-    right: 6vw;
-    row-gap: 0.3vw;
     justify-content: center;
     align-items: flex-end;
-}
-.menu-icon .bar{
-    width: 1.5vw;
-    height: 0.2vw;
-    position: relative;
-    background-color: #ffffff;
-    
-}
-.menu-icon #b1{
-    width: 70%;
-}
-.menu-icon #b2{
-    width: 90%;
-}
-.menu-icon #b3{
-    width: 50%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 1vw;
+    font-family: 'Bebas Neue', sans-serif;
+    z-index: 1;
 }
 .sidebar{
     color: #b3aca2;
